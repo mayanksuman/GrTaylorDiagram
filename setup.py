@@ -2,7 +2,7 @@ from setuptools import setup
 from GrTaylorDiagram import __version__ as version
 from GrTaylorDiagram import __author__ as author
 
-with open("README.md", 'r') as f:
+with open("README.md", 'r', encoding="utf8") as f:
     long_description = f.read()
 
 setup(
